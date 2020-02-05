@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import { Router, Route, Switch } from "react-router-dom";
 import Profile from "./components/Profile";
 import history from "./utils/history";
+import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         </header>
         <Switch>
           <Route path="/" exact />
-          <Route path="/profile" component={Profile} />
+          <PrivateRoute path="/profile" component={Profile} />
         </Switch>
       </Router>
     </div>
