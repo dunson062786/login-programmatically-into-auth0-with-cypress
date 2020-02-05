@@ -25,3 +25,5 @@ yarn-error.log*
 src/auth_config.json
 
 /cypress/integration/examples
+
+cypress.env.json
