@@ -38,7 +38,7 @@ You will have to update each one of the properties above with your own Auth0 val
 
 in it.
 
-Also make sure to do the Auth0 Setup & Configuration steps outlined in (https://auth0.com/blog/end-to-end-testing-with-cypress-and-auth0/)
+Also make sure to do the Auth0 Setup & Configuration steps outlined in (https://auth0.com/blog/end-to-end-testing-with-cypress-and-auth0/) in your Auth0 Application if you haven't already.
 
 ## Available Scripts
 
