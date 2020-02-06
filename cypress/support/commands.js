@@ -66,7 +66,7 @@ Cypress.Commands.add(
                 encodeURIComponent(JSON.stringify({
                     "appState": appState,
                     "scope": "openid profile email",
-                    "audience": Cypress.env('auth_audience'),
+                    "audience": "default",
                     "redirect_uri": "http://localhost:3000"
                 }))
             ).then(() => {
