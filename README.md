@@ -1,4 +1,4 @@
-This app is supposed to show how to write a cypress test that will programmatically login a user into Auth0.
+This repo shows how to write a cypress test that will programmatically login a user into Auth0.
 
 Warning if you clone this repo it isn't going to work "as-is" you will have to add auth_config.json in the src folder and put this:
 
@@ -38,7 +38,7 @@ You will have to update each one of the properties above with your own Auth0 val
 
 in it.
 
-Also make sure to do the Auth0 Setup & Configuration steps outlined in (https://auth0.com/blog/end-to-end-testing-with-cypress-and-auth0/) in your Auth0 Application if you haven't already.
+Also make sure to do the Auth0 Setup & Configuration steps outlined in (https://auth0.com/blog/end-to-end-testing-with-cypress-and-auth0/) in your Auth0 Application if you haven't already. Thank you Dan Lourenço!
 
 ## Available Scripts
 
