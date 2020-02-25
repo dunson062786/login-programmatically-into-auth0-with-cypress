@@ -50,7 +50,7 @@ Cypress.Commands.add(
                 url: 'oauth/token',
                 method: 'POST',
                 response: {
-                    accesss_token: access_token,
+                    access_token: access_token,
                     id_token: id_token,
                     scope: "openid profile email",
                     expires_in: expires_in,
