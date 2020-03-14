@@ -69,9 +69,8 @@ Cypress.Commands.add(
                     "audience": "default",
                     "redirect_uri": "http://localhost:3000"
                 }))
-            ).then(() => {
-                cy.visit(`/?code=test-code&state=${stateId}`);
-            });
+            );
+            cy.visit(`/?code=test-code&state=${stateId}`);
         });
     }
 );
